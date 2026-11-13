@@ -1,0 +1,35 @@
+{
+  "baseline": {
+    "average_precision": 0.9308646743213713,
+    "precision_at_10": 0.8,
+    "precision_at_50": 0.92,
+    "roc_auc": 0.6204968944099378
+  },
+  "client_overlap": 0,
+  "data_commit": "48d0dac47169e9f14b106037938d414b16529aaf",
+  "dataset_sha256": "c43bdac4eccfa17fcd8a33974fe36f2c998c03a3ae3af8d80cf712abab5d6396",
+  "eligible_rows": 11119,
+  "features": [
+    "impressions_prev_30d",
+    "clicks_prev_30d",
+    "age_at_cutoff"
+  ],
+  "heldout_clients": 7,
+  "heldout_decline_base_rate": 0.9106002554278416,
+  "label_definition": "impressions_last_30d < 0.8 * impressions_prev_30d",
+  "logistic_regression": {
+    "average_precision": 0.9482605093635408,
+    "precision_at_10": 1.0,
+    "precision_at_50": 0.98,
+    "roc_auc": 0.6462833099579243
+  },
+  "seed": 42,
+  "snapshot_rows": 30000,
+  "software": {
+    "pandas": "2.2.3",
+    "scikit_learn": "1.8.0"
+  },
+  "test_rows": 783,
+  "train_clients": 21,
+  "train_rows": 10336
+}
