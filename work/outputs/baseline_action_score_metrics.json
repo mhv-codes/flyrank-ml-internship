@@ -1,0 +1,9 @@
+{
+  "input_rows": 30000,
+  "eligible_rows": 26612,
+  "queued_rows": 11119,
+  "minimum_prior_impressions": 500,
+  "eligible_decline_base_rate": 0.6110777093040733,
+  "precision_at_10": 0.7,
+  "precision_at_50": 0.5
+}
